@@ -8,6 +8,8 @@ theme:
     - navigation.top
 
 nav:
+  - Aulas Concreto II:
+      - "Aula 1 - O que são pilares de concreto armado?": aula_1.md
   - Introdução:
       - "O que é Concreto Armado?": index.md
       - "História e Evolução": historia.md
