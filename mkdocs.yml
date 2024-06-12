@@ -1,0 +1,45 @@
+site_name: Documentação Concreto Armado
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+nav:
+  - Introdução:
+      - "O que é Concreto Armado?": index.md
+      - "História e Evolução": historia.md
+      - "Vantagens e Desvantagens": vantagens_desvantagens.md
+  - Materiais:
+      - Cimento:
+          - "Tipos de Cimento": cimento_tipos.md
+          - "Propriedades do Cimento": cimento_propriedades.md
+      - Agregados:
+          - "Tipos de Agregados": agregados_tipos.md
+          - "Granulometria": agregados_granulometria.md
+      - Água: agua.md
+      - Aditivos: aditivos.md
+      - Aço:
+          - "Tipos de Aço": aco_tipos.md
+          - "Armaduras": aco_armaduras.md
+  - Projeto Estrutural:
+      - "Normas Técnicas": normas.md
+      - "Elementos Estruturais":
+          - Lajes: lajes.md
+          - Vigas: vigas.md
+          - Pilares: pilares.md
+          - Fundações: fundacoes.md
+      - "Estados Limites": estados_limites.md
+  - Execução:
+      - "Preparo do Concreto": preparo_concreto.md
+      - "Lançamento e Adensamento": lancamento_adensamento.md
+      - "Cura do Concreto": cura.md
+      - "Formas e Escoramentos": formas_escoramentos.md
+  - Patologias:
+      - "Fissuras": fissuras.md
+      - "Corrosão": corrosao.md
+      - "Outros Problemas": outros_problemas.md
+  - Manutenção: manutencao.md
+  - Referências: referencias.md
