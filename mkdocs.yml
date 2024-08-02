@@ -9,7 +9,16 @@ theme:
 
 nav:
   - Aulas Concreto II:
-      - "Aula 1 - O que são pilares de concreto armado?": aula1.md
+      - "Aula 1 - Pilares de Concreto Armado: Dimensionamento": aula1.md
+      - "Aula 2 - Dimensionamento de Pilares: Cargas Axiais e Flexão": aula2.md
+      - "Aula 3 - Pilares com Excentricidade": aula3.md
+      - "Aula 4 - Pilares Curvos": aula4.md
+      - "Aula 5 - Análise de Pórticos: Métodos de Cálculo": aula5.md
+      - "Aula 6 - Dimensionamento de Pórticos: Cargas Estáticas": aula6.md
+      - "Aula 7 - Dimensionamento de Pórticos: Cargas Dinâmicas": aula7.md
+      - "Aula 8 - Cargas Dinâmicas: Impacto e Vibração": aula8.md
+      - "Aula 9 - Projeto de Pilares e Pórticos: Considerações Práticas": aula9.md
+      - "Aula 10 - Estudos de Caso e Aplicações Reais": aula10.md
   - Introdução:
       - "O que é Concreto Armado?": index.md
       - "História e Evolução": historia.md
