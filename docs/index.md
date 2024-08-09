@@ -1,14 +1,14 @@
 # Aulas Concreto II
 
-1. [Pilares de Concreto Armado: Dimensionamento](aula1)
-2. [Dimensionamento de Pilares: Cargas Axiais e Flexão](aula2)
-3. [Pilares com Excentricidade](aula3)
-4. [Pilares Curvos](aula4)
-5. [Análise de Pórticos: Métodos de Cálculo](aula5)
-6. [Dimensionamento de Pórticos: Cargas Estáticas](aula6)
-7. [Dimensionamento de Pórticos: Cargas Dinâmicas](aula7)
-8. [Cargas Dinâmicas: Impacto e Vibração](aula8)
-9. [Projeto de Pilares e Pórticos: Considerações Práticas](aula9)
+1. [Introdução e Direcionamentos Iniciais](aula1)
+2. [Conceitos Fundamentais sobre Pilares](aula2)
+3. [Pilares de Extremidade, Intermediário e de Canto](aula3)
+4. [Dimensionamento de pilares](aula4)
+5. [Cálculo de Reações de Apoio do Pórtico](aula5)
+6. [Diagrama dos Esforços Normal e Cortante](aula6)
+7. [Diagrama de Momento Fletor (parte1)](aula7)
+8. [Diagrama de Momento Fletor (parte2)](aula8)
+9. [Considerações Práticas](aula9)
 10. [Estudos de Caso e Aplicações Reais](aula10)
 
 
