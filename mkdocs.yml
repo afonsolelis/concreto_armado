@@ -54,3 +54,6 @@ nav:
       - "Outros Problemas": outros_problemas.md
   - Manutenção: manutencao.md
   - Referências: referencias.md
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
