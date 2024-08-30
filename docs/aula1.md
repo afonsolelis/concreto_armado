@@ -2,6 +2,10 @@
 
 ## Cronograma
 
+### QRCode
+
+![qrcode](https://res.cloudinary.com/dyhjjms8y/image/upload/v1725052017/url_eh2b30.png)
+
 ### Estruturas de Concreto: Pilares e Solicitações Dinâmicas
 
 <!-- | Data    | Conteúdo                                        | Aula |
