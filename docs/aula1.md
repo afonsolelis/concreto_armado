@@ -4,7 +4,7 @@
 
 ### Estruturas de Concreto: Pilares e Solicitações Dinâmicas
 
-| Data    | Conteúdo                                        | Aula |
+<!-- | Data    | Conteúdo                                        | Aula |
 |---------|-------------------------------------------------|------|
 | 09/08   | Introdução e Direcionamentos Iniciais           | 1    |
 | 16/08   | Conceitos Fundamentais sobre Pilares            | 2    |
@@ -22,7 +22,7 @@
 | 08/11   | Estudos de Caso e Aplicações Reais              | 10   |
 | 15/11   | Feriado                                         |      |
 | 22/11   | Teste dos Protótipos de Pórtico                 |      |
-| 29/11   | Teste dos Protótipos de Pórtico                 |      |
+| 29/11   | Teste dos Protótipos de Pórtico                 |      | -->
 
 ## Pontuações
 - Entrega do Croqui:                           0,5

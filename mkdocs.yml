@@ -11,14 +11,14 @@ nav:
   - Aulas Concreto II:
       - "Aula 1 - Introdução e Direcionamentos Iniciais": aula1.md
       - "Aula 2 - Conceitos Fundamentais sobre Pilares": aula2.md
-      - "Aula 3 - Pilares de Extremidade, Intermediário e de Canto": aula3.md
-      - "Aula 4 - Dimensionamento de pilares": aula4.md
-      - "Aula 5 - Cálculo de Reações de Apoio do Pórtico": aula5.md
-      - "Aula 6 - Diagrama dos Esforços Normal e Cortante": aula6.md
-      - "Aula 7 - Diagrama de Momento Fletor (parte1)": aula7.md
-      - "Aula 8 - Diagrama de Momento Fletor (parte2)": aula8.md
-      - "Aula 9 - Considerações Práticas": aula9.md
-      - "Aula 10 - Estudos de Caso e Aplicações Reais": aula10.md
+      - "Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial)": aula3.md
+    #   - "Aula 4 - Dimensionamento de pilares": aula4.md
+    #   - "Aula 5 - Cálculo de Reações de Apoio do Pórtico": aula5.md
+    #   - "Aula 6 - Diagrama dos Esforços Normal e Cortante": aula6.md
+    #   - "Aula 7 - Diagrama de Momento Fletor (parte1)": aula7.md
+    #   - "Aula 8 - Diagrama de Momento Fletor (parte2)": aula8.md
+    #   - "Aula 9 - Considerações Práticas": aula9.md
+    #   - "Aula 10 - Estudos de Caso e Aplicações Reais": aula10.md
   - Introdução:
       - "O que é Concreto Armado?": index.md
       - "História e Evolução": historia.md
