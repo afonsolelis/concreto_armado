@@ -46,6 +46,108 @@ Calculado em relação ao eixo menos rígido (eixo "y"):
 I_y = \dfrac{b \times h^3}{12} = \dfrac{0,20 \times (0,40)^3}{12} = 0,0010667 \, \text{m}^4
 \]
 
+**Casos de Comprimento Efetivo Conforme a Norma NBR 6118**
+
+O comprimento efetivo (\( L_{ef} \)) de um pilar é um parâmetro crucial no cálculo da esbeltez e na consideração dos efeitos de segunda ordem em estruturas de concreto armado. A **NBR 6118:2014 - Projeto de estruturas de concreto — Procedimento** estabelece diretrizes para determinar o comprimento efetivo dos pilares com base nas condições de contorno e nos tipos de ligação em seus extremos.
+
+A seguir, apresentamos os principais casos de comprimento efetivo conforme a norma, incluindo os fatores de comprimento efetivo (\( k \)) para diferentes condições de apoio.
+
+---
+
+### **1. Ambos os Extremos Engastados**
+
+- **Condições de Contorno:** O pilar está rigidamente conectado em ambos os extremos, impedindo rotações e translações (engastamento perfeito).
+- **Fator de Comprimento Efetivo (\( k \))**: **0,5**
+- **Comprimento Efetivo (\( L_{ef} \))**:
+  
+\[
+L_{ef} = k \times L_0 = 0,5 \times L_0
+\]
+  
+- **Aplicação Típica:** Pilares internos conectados a vigas e lajes que proporcionam alto grau de rigidez nas ligações.
+
+---
+
+### **2. Um Extremo Engastado e Outro Articulado**
+
+- **Condições de Contorno:** Um extremo do pilar é engastado, impedindo rotações e translações, enquanto o outro extremo é articulado, permitindo rotações mas impedindo translações horizontais.
+- **Fator de Comprimento Efetivo (\( k \))**: **0,7**
+- **Comprimento Efetivo (\( L_{ef} \))**:
+  
+\[
+L_{ef} = 0,7 \times L_0
+\]
+  
+- **Aplicação Típica:** Pilares onde um extremo está rigidamente conectado a uma fundação ou viga robusta, e o outro extremo está conectado a uma viga ou laje menos rígida.
+
+---
+
+### **3. Ambos os Extremos Articulados**
+
+- **Condições de Contorno:** Os dois extremos do pilar são articulados, permitindo rotações mas impedindo translações horizontais (apoio simples).
+- **Fator de Comprimento Efetivo (\( k \))**: **1,0**
+- **Comprimento Efetivo (\( L_{ef} \))**:
+  
+\[
+L_{ef} = L_0
+\]
+  
+- **Aplicação Típica:** Pilares em estruturas onde as ligações não proporcionam rigidez suficiente para impedir rotações, como em estruturas provisórias ou andaimes.
+
+---
+
+### **4. Um Extremo Engastado e Outro Livre (Pilar em Balanço)**
+
+- **Condições de Contorno:** Um extremo do pilar é engastado, enquanto o outro extremo está livre para translações e rotações.
+- **Fator de Comprimento Efetivo (\( k \))**: **2,0**
+- **Comprimento Efetivo (\( L_{ef} \))**:
+  
+\[
+L_{ef} = 2,0 \times L_0
+\]
+  
+- **Aplicação Típica:** Pilares em balanço, como pilares de fachada ou elementos de sustentação em marquises.
+
+---
+
+### **5. Pilares com Condições de Contorno Intermediárias**
+
+Quando as condições de contorno não se enquadram perfeitamente nos casos anteriores, ou quando há flexibilidade nas ligações, a norma permite o cálculo do comprimento efetivo utilizando coeficientes que consideram a rigidez relativa das ligações nos extremos do pilar.
+
+#### **Cálculo Geral do Comprimento Efetivo**
+
+A expressão geral para o cálculo do comprimento efetivo é:
+
+\[
+L_{ef} = L_0 \times \sqrt{\dfrac{\pi^2}{\beta_1 + \beta_2}}
+\]
+
+Onde:
+
+- \( \beta_1 \) e \( \beta_2 \) são os coeficientes de restrição rotacional nas extremidades do pilar, dados por:
+
+\[
+\beta = \dfrac{M}{\theta \times E_c \times I}
+\]
+
+- \( M \): Momento fletor na extremidade.
+- \( \theta \): Rotação na extremidade.
+- \( E_c \): Módulo de elasticidade do concreto.
+- \( I \): Momento de inércia da seção transversal do pilar.
+
+Esses coeficientes podem ser determinados por meio de análises estruturais detalhadas ou utilizando tabelas e abacos fornecidos na norma.
+
+---
+
+### **6. Tabela Resumida dos Fatores de Comprimento Efetivo**
+
+| **Condições de Contorno**                | **Fator \( k \)** | **Comprimento Efetivo \( L_{ef} \)**       |
+|------------------------------------------|-------------------|---------------------------------------------|
+| Ambos os extremos engastados             | 0,5               | \( L_{ef} = 0,5 \times L_0 \)               |
+| Um extremo engastado e outro articulado  | 0,7               | \( L_{ef} = 0,7 \times L_0 \)               |
+| Ambos os extremos articulados            | 1,0               | \( L_{ef} = 1,0 \times L_0 \)               |
+| Um extremo engastado e outro livre       | 2,0               | \( L_{ef} = 2,0 \times L_0 \)               |
+
 ##### **2.3. Raio de Giração (\( i \)):**
 
 \[
