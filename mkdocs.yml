@@ -8,11 +8,12 @@ theme:
     - navigation.top
 
 nav:
+  - Ftools: "https://drive.google.com/drive/folders/1E4grQgWfzBDn0W1CbF6h18pv5_oDq2v4?usp=sharing"
   - Aulas Concreto II:
       - "Aula 1 - Introdução e Direcionamentos Iniciais": aula1.md
       - "Aula 2 - Conceitos Fundamentais sobre Pilares": aula2.md
       - "Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial)": aula3.md
-    #   - "Aula 4 - Dimensionamento de pilares": aula4.md
+      - "Aula 4 - Dimensionamento de pilares": aula4.md
     #   - "Aula 5 - Cálculo de Reações de Apoio do Pórtico": aula5.md
     #   - "Aula 6 - Diagrama dos Esforços Normal e Cortante": aula6.md
     #   - "Aula 7 - Diagrama de Momento Fletor (parte1)": aula7.md
@@ -55,5 +56,12 @@ nav:
   - Manutenção: manutencao.md
   - Referências: referencias.md
 
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
 extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
