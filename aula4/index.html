@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../aula2/">
+        <link rel="prev" href="../aula3/">
       
       
-        <link rel="next" href="../aula4/">
+        <link rel="next" href="..">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial) - Documentação Concreto Armado</title>
+        <title>Aula 4 - Dimensionamento de pilares - Documentação Concreto Armado</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#atividade-desenvolvimento-de-croqui-e-calculos-estruturais-de-um-portico" class="md-skip">
+        <a href="#exemplo-de-calculo-de-pilar-com-esbeltez-e-coeficientes-de-seguranca" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial)
+              Aula 4 - Dimensionamento de pilares
             
           </span>
         </div>
@@ -474,6 +474,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../aula3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -483,12 +504,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial)
+    Aula 4 - Dimensionamento de pilares
   </span>
   
 
@@ -499,7 +522,7 @@
         
   
   <span class="md-ellipsis">
-    Aula 3 - Atividade de Croqui (Dimensionamento do Pórtico Inicial)
+    Aula 4 - Dimensionamento de pilares
   </span>
   
 
@@ -511,6 +534,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -519,46 +544,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atividade-desenvolvimento-de-croqui-e-calculos-estruturais-de-um-portico" class="md-nav__link">
+  <a href="#passo-a-passo-do-calculo" class="md-nav__link">
     <span class="md-ellipsis">
-      Atividade: Desenvolvimento de Croqui e Cálculos Estruturais de um Pórtico
+      Passo a Passo do Cálculo
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Atividade: Desenvolvimento de Croqui e Cálculos Estruturais de um Pórtico">
+    <nav class="md-nav" aria-label="Passo a Passo do Cálculo">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
+  <a href="#1-determinacao-dos-esforcos-de-calculo" class="md-nav__link">
     <span class="md-ellipsis">
-      Objetivo:
+      1. Determinação dos Esforços de Cálculo
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="1. Determinação dos Esforços de Cálculo">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#material-necessario" class="md-nav__link">
+  <a href="#11-esforco-normal-de-calculo-n_sd" class="md-nav__link">
     <span class="md-ellipsis">
-      Material Necessário:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#descricao-da-atividade" class="md-nav__link">
-    <span class="md-ellipsis">
-      Descrição da Atividade:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#avaliacao" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avaliação:
+      1.1. Esforço Normal de Cálculo (\( N_{sd} \)):
     </span>
   </a>
   
@@ -568,22 +576,282 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#veja-o-seguinte-video-para-ajudar" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#2-determinacao-das-propriedades-da-secao" class="md-nav__link">
     <span class="md-ellipsis">
-      Veja o Seguinte vídeo para ajudar:
+      2. Determinação das Propriedades da Seção
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Determinação das Propriedades da Seção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-area-da-secao-a_c" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Área da Seção (\( A_c \)):
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#deposite-o-croqui-aqui-link-do-forms" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#22-momento-de-inercia-i" class="md-nav__link">
     <span class="md-ellipsis">
-      Deposite o Croqui aqui: Link do Forms
+      2.2. Momento de Inércia (\( I \)):
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-raio-de-giracao-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3. Raio de Giração (\( i \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-calculo-da-esbeltez-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Cálculo da Esbeltez (\( \lambda \))
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cálculo da Esbeltez (\( \lambda \))">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-comprimento-efetivo-l_ef" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. Comprimento Efetivo (\( L_{ef} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-esbeltez-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Esbeltez (\( \lambda \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-verificacao-da-esbeltez-limite-lambda_lim" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Verificação da Esbeltez Limite (\( \lambda_{lim} \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-calculo-dos-efeitos-de-segunda-ordem" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Cálculo dos Efeitos de Segunda Ordem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Cálculo dos Efeitos de Segunda Ordem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-modulo-de-elasticidade-secante-do-concreto-e_cs" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1. Módulo de Elasticidade Secante do Concreto (\( E_{cs} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-carga-critica-de-euler-n_e" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2. Carga Crítica de Euler (\( N_{e} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-coeficiente-de-fluencia-phi" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3. Coeficiente de Fluência (\( \phi \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-calculo-do-coeficiente-reduzido-nu" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4. Cálculo do Coeficiente Reduzido (\( \nu \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-calculo-do-coeficiente-de-amplificacao-gamma_z" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.5. Cálculo do Coeficiente de Amplificação (\( \gamma_z \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-calculo-do-momento-de-calculo-m_sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Cálculo do Momento de Cálculo (\( M_{sd} \))
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Cálculo do Momento de Cálculo (\( M_{sd} \))">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-excentricidade-inicial-minima-e_0" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1. Excentricidade Inicial Mínima (\( e_0 \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-momento-inicial-de-calculo-m_0d" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2. Momento Inicial de Cálculo (\( M_{0d} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-momento-de-calculo-amplificado-m_sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3. Momento de Cálculo Amplificado (\( M_{sd} \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-verificacao-da-resistencia-da-secao" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Verificação da Resistência da Seção
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Verificação da Resistência da Seção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-resistencia-do-concreto-f_cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1. Resistência do Concreto (\( f_{cd} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-resistencia-do-aco-f_yd" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.2. Resistência do Aço (\( f_{yd} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-dimensionamento-da-armadura-longitudinal-a_s" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.3. Dimensionamento da Armadura Longitudinal (\( A_s \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-calculo-da-altura-da-linha-neutra-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.4. Cálculo da Altura da Linha Neutra (\( x \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75-calculo-do-momento-resistente-m_rd" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.5. Cálculo do Momento Resistente (\( M_Rd \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#76-alternativa-aumentar-a-secao-ou-a-armadura" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.6. Alternativa: Aumentar a Seção ou a Armadura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#77-calculo-da-area-de-armadura-necessaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.7. Cálculo da Área de Armadura Necessária
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#78-solucao-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.8. Solução Final
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -591,27 +859,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../aula4/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Aula 4 - Dimensionamento de pilares
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1630,6 +1877,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1638,46 +1887,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atividade-desenvolvimento-de-croqui-e-calculos-estruturais-de-um-portico" class="md-nav__link">
+  <a href="#passo-a-passo-do-calculo" class="md-nav__link">
     <span class="md-ellipsis">
-      Atividade: Desenvolvimento de Croqui e Cálculos Estruturais de um Pórtico
+      Passo a Passo do Cálculo
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Atividade: Desenvolvimento de Croqui e Cálculos Estruturais de um Pórtico">
+    <nav class="md-nav" aria-label="Passo a Passo do Cálculo">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
+  <a href="#1-determinacao-dos-esforcos-de-calculo" class="md-nav__link">
     <span class="md-ellipsis">
-      Objetivo:
+      1. Determinação dos Esforços de Cálculo
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="1. Determinação dos Esforços de Cálculo">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#material-necessario" class="md-nav__link">
+  <a href="#11-esforco-normal-de-calculo-n_sd" class="md-nav__link">
     <span class="md-ellipsis">
-      Material Necessário:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#descricao-da-atividade" class="md-nav__link">
-    <span class="md-ellipsis">
-      Descrição da Atividade:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#avaliacao" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avaliação:
+      1.1. Esforço Normal de Cálculo (\( N_{sd} \)):
     </span>
   </a>
   
@@ -1687,22 +1919,282 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#veja-o-seguinte-video-para-ajudar" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#2-determinacao-das-propriedades-da-secao" class="md-nav__link">
     <span class="md-ellipsis">
-      Veja o Seguinte vídeo para ajudar:
+      2. Determinação das Propriedades da Seção
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Determinação das Propriedades da Seção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-area-da-secao-a_c" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Área da Seção (\( A_c \)):
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#deposite-o-croqui-aqui-link-do-forms" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#22-momento-de-inercia-i" class="md-nav__link">
     <span class="md-ellipsis">
-      Deposite o Croqui aqui: Link do Forms
+      2.2. Momento de Inércia (\( I \)):
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-raio-de-giracao-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3. Raio de Giração (\( i \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-calculo-da-esbeltez-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Cálculo da Esbeltez (\( \lambda \))
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cálculo da Esbeltez (\( \lambda \))">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-comprimento-efetivo-l_ef" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. Comprimento Efetivo (\( L_{ef} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-esbeltez-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Esbeltez (\( \lambda \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-verificacao-da-esbeltez-limite-lambda_lim" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Verificação da Esbeltez Limite (\( \lambda_{lim} \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-calculo-dos-efeitos-de-segunda-ordem" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Cálculo dos Efeitos de Segunda Ordem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Cálculo dos Efeitos de Segunda Ordem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-modulo-de-elasticidade-secante-do-concreto-e_cs" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1. Módulo de Elasticidade Secante do Concreto (\( E_{cs} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-carga-critica-de-euler-n_e" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2. Carga Crítica de Euler (\( N_{e} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-coeficiente-de-fluencia-phi" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3. Coeficiente de Fluência (\( \phi \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-calculo-do-coeficiente-reduzido-nu" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4. Cálculo do Coeficiente Reduzido (\( \nu \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-calculo-do-coeficiente-de-amplificacao-gamma_z" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.5. Cálculo do Coeficiente de Amplificação (\( \gamma_z \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-calculo-do-momento-de-calculo-m_sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Cálculo do Momento de Cálculo (\( M_{sd} \))
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Cálculo do Momento de Cálculo (\( M_{sd} \))">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-excentricidade-inicial-minima-e_0" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1. Excentricidade Inicial Mínima (\( e_0 \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-momento-inicial-de-calculo-m_0d" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2. Momento Inicial de Cálculo (\( M_{0d} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-momento-de-calculo-amplificado-m_sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3. Momento de Cálculo Amplificado (\( M_{sd} \)):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-verificacao-da-resistencia-da-secao" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Verificação da Resistência da Seção
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Verificação da Resistência da Seção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-resistencia-do-concreto-f_cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1. Resistência do Concreto (\( f_{cd} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-resistencia-do-aco-f_yd" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.2. Resistência do Aço (\( f_{yd} \)):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-dimensionamento-da-armadura-longitudinal-a_s" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.3. Dimensionamento da Armadura Longitudinal (\( A_s \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-calculo-da-altura-da-linha-neutra-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.4. Cálculo da Altura da Linha Neutra (\( x \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75-calculo-do-momento-resistente-m_rd" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.5. Cálculo do Momento Resistente (\( M_Rd \))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#76-alternativa-aumentar-a-secao-ou-a-armadura" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.6. Alternativa: Aumentar a Seção ou a Armadura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#77-calculo-da-area-de-armadura-necessaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.7. Cálculo da Área de Armadura Necessária
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#78-solucao-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.8. Solução Final
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1721,57 +2213,254 @@
                   
 
 
-<h2 id="atividade-desenvolvimento-de-croqui-e-calculos-estruturais-de-um-portico">Atividade: Desenvolvimento de Croqui e Cálculos Estruturais de um Pórtico</h2>
-<h3 id="objetivo">Objetivo:</h3>
-<p>Os alunos deverão criar um croqui de um pórtico simples e realizar cálculos relacionados ao índice de esbeltez dos pilares, ao volume total do pórtico e ao peso total considerando o material de concreto. O pórtico deve suportar uma carga de 2 kgf aplicada no centro da trave principal.</p>
-<h3 id="material-necessario">Material Necessário:</h3>
+<h1 id="exemplo-de-calculo-de-pilar-com-esbeltez-e-coeficientes-de-seguranca"><strong>Exemplo de Cálculo de Pilar com Esbeltez e Coeficientes de Segurança</strong></h1>
+<p><strong>Dados do problema:</strong></p>
 <ul>
-<li>Papel milimetrado ou software de desenho técnico (como AutoCAD ou SketchUp)</li>
-<li>Calculadora</li>
-<li>Régua e lápis</li>
-<li>Tabelas de propriedades dos materiais (se necessário)</li>
+<li><strong>Comprimento livre do pilar (<span class="arithmatex">\( L_0 \)</span>):</strong> 4,0 metros</li>
+<li><strong>Seção transversal do pilar:</strong> 20 cm x 40 cm (largura <span class="arithmatex">\( b \)</span> x altura <span class="arithmatex">\( h \)</span>)</li>
+<li><strong>Classe do concreto:</strong> C30 (<span class="arithmatex">\( f_{ck} = 30 \, \text{MPa} \)</span>)</li>
+<li><strong>Aço utilizado:</strong> CA-50 (<span class="arithmatex">\( f_{yk} = 500 \, \text{MPa} \)</span>)</li>
+<li><strong>Carga axial característica atuante (<span class="arithmatex">\( N_k \)</span>):</strong> 800 kN</li>
+<li><strong>Condições de contorno:</strong> Engastado na base e livre no topo (pilar em balanço)</li>
 </ul>
-<h3 id="descricao-da-atividade">Descrição da Atividade:</h3>
-<p><strong>Desenho do Croqui:</strong>
-- Desenhe um croqui de um pórtico simples com 1 metro de vão (vencimento) e 50 cm de altura.
-- Inclua os pilares e a viga superior.
-- Indique as dimensões principais e quaisquer detalhes estruturais relevantes.</p>
-<p><strong>Cálculo da Esbeltez do Pilar:</strong>
-- <strong>Dados:</strong>
-  - Altura do pilar: 0,5 metros (50 cm)
-  - Seção transversal do pilar: 20 cm x 20 cm
-- <strong>Cálculo:</strong>
-  - Determine o comprimento equivalente (<span class="arithmatex">\(<span class="arithmatex">\(L_0\)</span>\)</span>) do pilar. Neste caso, <span class="arithmatex">\(<span class="arithmatex">\(L_0 = 0,5\)</span>\)</span> m.
-  - Calcule o momento de inércia (<span class="arithmatex">\(<span class="arithmatex">\(I\)</span>\)</span>) para uma seção retangular usando a fórmula: 
-    $$ I = \frac{b \cdot h^3}{12} $$
-    onde <span class="arithmatex">\(<span class="arithmatex">\(b\)</span>\)</span> é a largura e <span class="arithmatex">\(<span class="arithmatex">\(h\)</span>\)</span> é a altura da seção.
-  - Para uma seção circular, o momento de inércia é calculado por:
-    $$ I = \frac{\pi \cdot D^4}{64} $$
-    onde <span class="arithmatex">\(<span class="arithmatex">\(D\)</span>\)</span> é o diâmetro.
-  - Calcule o raio de giração (<span class="arithmatex">\(<span class="arithmatex">\(i\)</span>\)</span>) usando a fórmula <span class="arithmatex">\(<span class="arithmatex">\(i = \sqrt{\frac{I}{A}}\)</span>\)</span>, onde <span class="arithmatex">\(<span class="arithmatex">\(A\)</span>\)</span> é a área da seção transversal.
-  - Calcule o índice de esbeltez (<span class="arithmatex">\(<span class="arithmatex">\(\lambda\)</span>\)</span>) usando a fórmula <span class="arithmatex">\(<span class="arithmatex">\(\lambda = \frac{L_0}{i}\)</span>\)</span>.</p>
-<p><strong>Cálculo do Volume e Peso do Pórtico:</strong>
-- <strong>Dados:</strong>
-  - Seção transversal dos pilares e da viga: 20 cm x 20 cm
-  - Comprimento da viga: 1 metro
-  - Densidade do concreto: aproximadamente 2.400 kg/m³
-- <strong>Cálculo:</strong>
-  - Calcule o volume dos dois pilares: <span class="arithmatex">\(<span class="arithmatex">\(V_{\text{pilares}} = 2 \times \text{Área da seção} \times \text{Altura do pilar}\)</span>\)</span>.
-  - Calcule o volume da viga: <span class="arithmatex">\(<span class="arithmatex">\(V_{\text{viga}} = \text{Área da seção} \times \text{Comprimento da viga}\)</span>\)</span>.
-  - Some os volumes para obter o volume total do pórtico: <span class="arithmatex">\(<span class="arithmatex">\(V_{\text{total}} = V_{\text{pilares}} + V_{\text{viga}}\)</span>\)</span>.
-  - Calcule o peso total do pórtico: <span class="arithmatex">\(<span class="arithmatex">\(P_{\text{total}} = V_{\text{total}} \times \text{Densidade do concreto}\)</span>\)</span>.</p>
-<p><strong>Discussão:</strong>
-- Discuta com os alunos os resultados obtidos, especialmente em relação à esbeltez e à estabilidade do pórtico.
-- Peça aos alunos que considerem como diferentes materiais e dimensões poderiam afetar o projeto.</p>
-<h3 id="avaliacao">Avaliação:</h3>
+<hr />
+<h3 id="passo-a-passo-do-calculo"><strong>Passo a Passo do Cálculo</strong></h3>
+<h4 id="1-determinacao-dos-esforcos-de-calculo"><strong>1. Determinação dos Esforços de Cálculo</strong></h4>
+<h5 id="11-esforco-normal-de-calculo-n_sd"><strong>1.1. Esforço Normal de Cálculo (<span class="arithmatex">\( N_{sd} \)</span>):</strong></h5>
+<p>Utilizando os coeficientes parciais de segurança das ações:</p>
 <ul>
-<li>Avalie a precisão dos cálculos e a clareza do croqui.</li>
-<li>Considere a capacidade dos alunos de explicar seus processos de pensamento e as decisões de projeto.</li>
+<li><strong>Para cargas permanentes (<span class="arithmatex">\(\gamma_g\)</span>):</strong> 1,4</li>
+<li><strong>Para cargas variáveis (<span class="arithmatex">\( \gamma_q \)</span>):</strong> 1,4 ou 1,5 (usaremos 1,4 para simplificar)</li>
 </ul>
-<h1 id="veja-o-seguinte-video-para-ajudar">Veja o Seguinte vídeo para ajudar:</h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CUW4-ALK7gw?si=EyRf8UiH55iF_p3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Supondo que toda a carga seja permanente:</p>
+<div class="arithmatex">\[
+N_{sd} = \gamma_g \times N_k = 1,4 \times 800 = 1120 \, \text{kN}
+\]</div>
+<hr />
+<h4 id="2-determinacao-das-propriedades-da-secao"><strong>2. Determinação das Propriedades da Seção</strong></h4>
+<h5 id="21-area-da-secao-a_c"><strong>2.1. Área da Seção (<span class="arithmatex">\( A_c \)</span>):</strong></h5>
+<div class="arithmatex">\[
+A_c = b \times h = 0,20 \times 0,40 = 0,08 \, \text{m}^2
+\]</div>
+<h5 id="22-momento-de-inercia-i"><strong>2.2. Momento de Inércia (<span class="arithmatex">\( I \)</span>):</strong></h5>
+<p>Calculado em relação ao eixo menos rígido (eixo "y"):</p>
+<div class="arithmatex">\[
+I_y = \dfrac{b \times h^3}{12} = \dfrac{0,20 \times (0,40)^3}{12} = 0,0010667 \, \text{m}^4
+\]</div>
+<h5 id="23-raio-de-giracao-i"><strong>2.3. Raio de Giração (<span class="arithmatex">\( i \)</span>):</strong></h5>
+<div class="arithmatex">\[
+i = \sqrt{\dfrac{I}{A_c}} = \sqrt{\dfrac{0,0010667}{0,08}} = 0,1155 \, \text{m}
+\]</div>
+<hr />
+<h4 id="3-calculo-da-esbeltez-lambda"><strong>3. Cálculo da Esbeltez (<span class="arithmatex">\( \lambda \)</span>)</strong></h4>
+<h5 id="31-comprimento-efetivo-l_ef"><strong>3.1. Comprimento Efetivo (<span class="arithmatex">\( L_{ef} \)</span>):</strong></h5>
+<p>Para um pilar em balanço:</p>
+<div class="arithmatex">\[
+L_{ef} = 2 \times L_0 = 2 \times 4,0 = 8,0 \, \text{m}
+\]</div>
+<h5 id="32-esbeltez-lambda"><strong>3.2. Esbeltez (<span class="arithmatex">\( \lambda \)</span>):</strong></h5>
+<div class="arithmatex">\[
+\lambda = \dfrac{L_{ef}}{i} = \dfrac{8,0}{0,1155} = 69,28
+\]</div>
+<hr />
+<h4 id="4-verificacao-da-esbeltez-limite-lambda_lim"><strong>4. Verificação da Esbeltez Limite (<span class="arithmatex">\( \lambda_{lim} \)</span>)</strong></h4>
+<p>Conforme a <strong>NBR 6118</strong>, a esbeltez limite é dada por:</p>
+<div class="arithmatex">\[
+\lambda_{lim} = \dfrac{C_1 \times C_2 \times C_3}{\sqrt{\phi_{ef}}}
+\]</div>
+<p>Onde:</p>
+<ul>
+<li><span class="arithmatex">\( C_1 \)</span> = 0,7 (considerando distribuição uniforme de momentos)</li>
+<li><span class="arithmatex">\( C_2 \)</span> = 1,0 (para pilares com armadura transversal adequada)</li>
+<li><span class="arithmatex">\( C_3 \)</span> = 1,0 (para concreto com <span class="arithmatex">\( f_{ck} \leq 50 \, \text{MPa} \)</span>)</li>
+<li><span class="arithmatex">\( \phi_{ef} \)</span> = 1,0 (considerando fluência média)</li>
+</ul>
+<p>Então:</p>
+<div class="arithmatex">\[
+\lambda_{lim} = \dfrac{0,7 \times 1,0 \times 1,0}{\sqrt{1,0}} = 0,7 \times 1 = 0,7 \times 140 = 98
+\]</div>
+<p>Multiplicamos por 140 para obter a esbeltez limite padrão:</p>
+<div class="arithmatex">\[
+\lambda_{lim} = 0,7 \times 140 = 98
+\]</div>
+<p>Como <span class="arithmatex">\( \lambda = 69,28 &lt; \lambda_{lim} = 98 \)</span>, o pilar está dentro da esbeltez limite, mas ainda assim devemos considerar os <strong>efeitos de segunda ordem</strong> devido ao valor elevado da esbeltez.</p>
+<hr />
+<h4 id="5-calculo-dos-efeitos-de-segunda-ordem"><strong>5. Cálculo dos Efeitos de Segunda Ordem</strong></h4>
+<h5 id="51-modulo-de-elasticidade-secante-do-concreto-e_cs"><strong>5.1. Módulo de Elasticidade Secante do Concreto (<span class="arithmatex">\( E_{cs} \)</span>):</strong></h5>
+<div class="arithmatex">\[
+E_{cs} = \dfrac{E_{c}}{\gamma_{c}}
+\]</div>
+<p>Onde:</p>
+<ul>
+<li><span class="arithmatex">\( E_{c} \)</span> é o módulo de elasticidade do concreto (para C30, <span class="arithmatex">\( E_{c} = 31 \, \text{GPa} \)</span>)</li>
+<li><span class="arithmatex">\( \gamma_{c} = 1,4 \)</span> (coeficiente parcial de segurança do concreto)</li>
+</ul>
+<p>Então:</p>
+<div class="arithmatex">\[
+E_{cs} = \dfrac{31 \times 10^6}{1,4} = 22,14 \times 10^6 \, \text{kN/m}^2
+\]</div>
+<h5 id="52-carga-critica-de-euler-n_e"><strong>5.2. Carga Crítica de Euler (<span class="arithmatex">\( N_{e} \)</span>):</strong></h5>
+<div class="arithmatex">\[
+N_{e} = \dfrac{\pi^2 \times E_{cs} \times I_y}{(L_{ef})^2} = \dfrac{\pi^2 \times 22,14 \times 10^6 \times 0,0010667}{(8,0)^2}
+\]</div>
+<p>Calculando:</p>
+<div class="arithmatex">\[
+N_{e} = \dfrac{9,8696 \times 22,14 \times 10^6 \times 0,0010667}{64} = \dfrac{9,8696 \times 22,14 \times 0,0010667 \times 10^6}{64}
+\]</div>
+<div class="arithmatex">\[
+N_{e} = \dfrac{232,97 \times 10^3}{64} = 3.640 \, \text{kN}
+\]</div>
+<h5 id="53-coeficiente-de-fluencia-phi"><strong>5.3. Coeficiente de Fluência (<span class="arithmatex">\( \phi \)</span>):</strong></h5>
+<p>Para simplificar, adotamos <span class="arithmatex">\( \phi = 1,4 \)</span> (valor típico para concreto comum).</p>
+<h5 id="54-calculo-do-coeficiente-reduzido-nu"><strong>5.4. Cálculo do Coeficiente Reduzido (<span class="arithmatex">\( \nu \)</span>):</strong></h5>
+<div class="arithmatex">\[
+\nu = \dfrac{1}{1 + \phi}
+\]</div>
+<div class="arithmatex">\[
+\nu = \dfrac{1}{1 + 1,4} = \dfrac{1}{2,4} = 0,4167
+\]</div>
+<h5 id="55-calculo-do-coeficiente-de-amplificacao-gamma_z"><strong>5.5. Cálculo do Coeficiente de Amplificação (<span class="arithmatex">\( \gamma_z \)</span>):</strong></h5>
+<div class="arithmatex">\[
+\gamma_z = \dfrac{1}{1 - \dfrac{N_{sd}}{\nu \times N_{e}}}
+\]</div>
+<div class="arithmatex">\[
+\gamma_z = \dfrac{1}{1 - \dfrac{1120}{0,4167 \times 3640}} = \dfrac{1}{1 - \dfrac{1120}{1.517}} = \dfrac{1}{1 - 0,7382} = \dfrac{1}{0,2618} = 3,820
+\]</div>
+<p>Como <span class="arithmatex">\( \gamma_z &gt; 1.4 \)</span>, devemos realizar uma análise mais detalhada dos efeitos de segunda ordem, possivelmente utilizando métodos mais rigorosos como o P-Delta ou modelos numéricos.</p>
+<p>No entanto, para fins deste exemplo, continuaremos com o cálculo.</p>
+<hr />
+<h4 id="6-calculo-do-momento-de-calculo-m_sd"><strong>6. Cálculo do Momento de Cálculo (<span class="arithmatex">\( M_{sd} \)</span>)</strong></h4>
+<h5 id="61-excentricidade-inicial-minima-e_0"><strong>6.1. Excentricidade Inicial Mínima (<span class="arithmatex">\( e_0 \)</span>):</strong></h5>
+<div class="arithmatex">\[
+e_0 = \mathrm{max} \left( \dfrac{L_0}{300}; \dfrac{h}{30}; 20 \, \text{mm} \right)
+\]</div>
+<p>Calculando:</p>
+<ul>
+<li><span class="arithmatex">\( \dfrac{L_0}{300} = \dfrac{4,0}{300} = 0,0133 \, \text{m} \)</span></li>
+<li><span class="arithmatex">\( \dfrac{h}{30} = \dfrac{0,40}{30} = 0,0133 \, \text{m} \)</span></li>
+<li><span class="arithmatex">\( 20 \, \text{mm} = 0,020 \, \text{m} \)</span></li>
+</ul>
+<p>Então:</p>
+<div class="arithmatex">\[
+e_0 = \mathrm{max}(0,0133; 0,0133; 0,020) = 0,020 \, \text{m}
+\]</div>
+<h5 id="62-momento-inicial-de-calculo-m_0d"><strong>6.2. Momento Inicial de Cálculo (<span class="arithmatex">\( M_{0d} \)</span>):</strong></h5>
+<div class="arithmatex">\[
+M_{0d} = N_{sd} \times e_0 = 1120 \times 0,020 = 22,4 \, \text{kN} \cdot \text{m}
+\]</div>
+<h5 id="63-momento-de-calculo-amplificado-m_sd"><strong>6.3. Momento de Cálculo Amplificado (<span class="arithmatex">\( M_{sd} \)</span>):</strong></h5>
+<div class="arithmatex">\[
+M_{sd} = \gamma_z \times M_{0d} = 3,820 \times 22,4 = 85,57 \, \text{kN} \cdot \text{m}
+\]</div>
+<hr />
+<h4 id="7-verificacao-da-resistencia-da-secao"><strong>7. Verificação da Resistência da Seção</strong></h4>
+<h5 id="71-resistencia-do-concreto-f_cd"><strong>7.1. Resistência do Concreto (<span class="arithmatex">\( f_{cd} \)</span>):</strong></h5>
+<div class="arithmatex">\[
+f_{cd} = \dfrac{f_{ck}}{\gamma_c} = \dfrac{30}{1,4} = 21,43 \, \text{MPa}
+\]</div>
+<h5 id="72-resistencia-do-aco-f_yd"><strong>7.2. Resistência do Aço (<span class="arithmatex">\( f_{yd} \)</span>):</strong></h5>
+<div class="arithmatex">\[
+f_{yd} = \dfrac{f_{yk}}{\gamma_s} = \dfrac{500}{1,15} = 434,78 \, \text{MPa}
+\]</div>
+<h5 id="73-dimensionamento-da-armadura-longitudinal-a_s"><strong>7.3. Dimensionamento da Armadura Longitudinal (<span class="arithmatex">\( A_s \)</span>)</strong></h5>
+<p>Para determinar <span class="arithmatex">\( A_s \)</span>, precisamos verificar se a seção resiste aos esforços <span class="arithmatex">\( N_{sd} \)</span> e <span class="arithmatex">\( M_{sd} \)</span>.</p>
+<p>Utilizaremos o <strong>domínio 3</strong> de deformação (compressão balanceada) para simplificar o cálculo.</p>
+<h5 id="74-calculo-da-altura-da-linha-neutra-x"><strong>7.4. Cálculo da Altura da Linha Neutra (<span class="arithmatex">\( x \)</span>)</strong></h5>
+<p>No domínio 3, a deformação máxima do concreto é <span class="arithmatex">\( \epsilon_c = 0,0035 \)</span>, e a deformação no aço de tração é <span class="arithmatex">\( \epsilon_s &gt; 0 \)</span>.</p>
+<p>A força resistente de compressão no concreto:</p>
+<div class="arithmatex">\[
+C_c = 0,85 \times f_{cd} \times b \times x
+\]</div>
+<p>A força resistente de tração no aço:</p>
+<div class="arithmatex">\[
+T_s = A_s \times f_{yd}
+\]</div>
+<p>Equilibrando as forças:</p>
+<div class="arithmatex">\[
+C_c = N_{sd}
+\]</div>
+<p>Então:</p>
+<div class="arithmatex">\[
+0,85 \times f_{cd} \times b \times x = N_{sd}
+\]</div>
+<p>Isolando <span class="arithmatex">\( x \)</span>:</p>
+<div class="arithmatex">\[
+x = \dfrac{N_{sd}}{0,85 \times f_{cd} \times b}
+\]</div>
+<div class="arithmatex">\[
+x = \dfrac{1120 \times 10^3}{0,85 \times 21,43 \times 10^6 \times 0,20} = \dfrac{1120 \times 10^3}{3,6421 \times 10^6} = 0,3075 \, \text{m}
+\]</div>
+<p>Verificando se <span class="arithmatex">\( x \leq x_{lim} \)</span> (para domínio 3):</p>
+<div class="arithmatex">\[
+x_{lim} = 0,45 \times d
+\]</div>
+<p>Onde <span class="arithmatex">\( d \)</span> é a altura útil da seção:</p>
+<div class="arithmatex">\[
+d = h - cobrimento - \dfrac{\phi}{2}
+\]</div>
+<p>Adotando:</p>
+<ul>
+<li>Cobrimento nominal = 25 mm = 0,025 m</li>
+<li>Diâmetro da barra (<span class="arithmatex">\( \phi \)</span>) = 16 mm = 0,016 m</li>
+</ul>
+<p>Então:</p>
+<div class="arithmatex">\[
+d = 0,40 - 0,025 - \dfrac{0,016}{2} = 0,40 - 0,025 - 0,008 = 0,367 \, \text{m}
+\]</div>
+<p>Calculando <span class="arithmatex">\( x_{lim} \)</span>:</p>
+<div class="arithmatex">\[
+x_{lim} = 0,45 \times 0,367 = 0,1652 \, \text{m}
+\]</div>
+<p>Como <span class="arithmatex">\( x = 0,3075 \, \text{m} &gt; x_{lim} = 0,1652 \, \text{m} \)</span>, o pilar está no <strong>domínio 4</strong> (compressão plástica).</p>
+<p>Neste caso, devemos verificar a capacidade resistente à flexão composta normal, utilizando o momento resistente da seção.</p>
+<h5 id="75-calculo-do-momento-resistente-m_rd"><strong>7.5. Cálculo do Momento Resistente (<span class="arithmatex">\( M_Rd \)</span>)</strong></h5>
+<p>O momento resistente é dado por:</p>
+<div class="arithmatex">\[
+M_{Rd} = N_{sd} \times (e_c - e_{2})
+\]</div>
+<p>Onde:</p>
+<ul>
+<li><span class="arithmatex">\( e_c \)</span> é a excentricidade correspondente à posição da resultante de compressão.</li>
+<li><span class="arithmatex">\( e_{2} \)</span> é a excentricidade acidental (já considerada mínima).</li>
+</ul>
+<p>No domínio 4, considera-se que o momento resistente é mínimo, e a seção não é capaz de resistir ao momento solicitante calculado. Portanto, precisamos aumentar a área de armadura ou modificar a seção.</p>
+<h5 id="76-alternativa-aumentar-a-secao-ou-a-armadura"><strong>7.6. Alternativa: Aumentar a Seção ou a Armadura</strong></h5>
+<p>Para que a seção resista aos esforços solicitantes, podemos:</p>
+<ul>
+<li>Aumentar as dimensões da seção (b e/ou h).</li>
+<li>Aumentar a área de armadura longitudinal (<span class="arithmatex">\( A_s \)</span>).</li>
+</ul>
+<h5 id="77-calculo-da-area-de-armadura-necessaria"><strong>7.7. Cálculo da Área de Armadura Necessária</strong></h5>
+<p>Utilizando diagramas de interação ou software especializado, podemos determinar <span class="arithmatex">\( A_s \)</span> necessária para resistir aos esforços <span class="arithmatex">\( N_{sd} = 1120 \, \text{kN} \)</span> e <span class="arithmatex">\( M_{sd} = 85,57 \, \text{kN} \cdot \text{m} \)</span>.</p>
+<p>Para fins ilustrativos, vamos supor que, após cálculos, a área de armadura necessária seja:</p>
+<div class="arithmatex">\[
+A_s = 4.000 \, \text{mm}^2
+\]</div>
+<p>Verificando se está dentro dos limites normativos:</p>
+<ul>
+<li><strong>Taxa mínima de armadura (<span class="arithmatex">\( \rho_{min} \)</span>):</strong></li>
+</ul>
+<div class="arithmatex">\[
+\rho_{min} = 0,15\% \quad \text{ou} \quad A_{s_{min}} = 0,0015 \times A_c = 0,0015 \times 80.000 = 120 \, \text{mm}^2
+\]</div>
+<ul>
+<li><strong>Taxa máxima de armadura (<span class="arithmatex">\( \rho_{max} \)</span>):</strong></li>
+</ul>
+<div class="arithmatex">\[
+\rho_{max} = 4\% \quad \text{ou} \quad A_{s_{max}} = 0,04 \times 80.000 = 3.200 \, \text{mm}^2
+\]</div>
+<p>Como <span class="arithmatex">\( A_s = 4.000 \, \text{mm}^2 &gt; A_{s_{max}} = 3.200 \, \text{mm}^2 \)</span>, não é permitido.</p>
+<h5 id="78-solucao-final"><strong>7.8. Solução Final</strong></h5>
+<p>Dado que não é possível aumentar a armadura além do máximo permitido, a solução é aumentar as dimensões da seção do pilar.</p>
+<p>Por exemplo, aumentar <span class="arithmatex">\( b \)</span> de 20 cm para 30 cm:</p>
+<ul>
+<li>Nova área: <span class="arithmatex">\( A_c = 0,30 \times 0,40 = 0,12 \, \text{m}^2 \)</span></li>
+<li>Recalcular todos os passos anteriores com a nova seção.</li>
+</ul>
+<hr />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oWrhWMXTPzY?si=1BEsT0Siih9iL4KO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h1 id="deposite-o-croqui-aqui-link-do-forms">Deposite o Croqui aqui: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMFwCaNtuSwAwLbQ2Db6_N9ZVM53LRE9X5EOD5JJf0-SShqQ/viewform?usp=sf_link">Link do Forms</a></h1>
+<hr />
 
 
 
