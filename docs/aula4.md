@@ -158,6 +158,27 @@ i = \sqrt{\dfrac{I}{A_c}} = \sqrt{\dfrac{0,0010667}{0,08}} = 0,1155 \, \text{m}
 
 #### **3. Cálculo da Esbeltez (\( \lambda \))**
 
+De acordo com a NBR 6118, os pilares são classificados quanto à esbeltez (λ) da seguinte forma:
+
+## Classificação dos Pilares quanto à Esbeltez
+
+| Classificação | Índice de Esbeltez (λ) |
+|---------------|------------------------|
+| Pilares Curtos | λ < 35 |
+| Pilares Medianamente Esbeltos | 35 ≤ λ < 90 |
+| Pilares Esbeltos | 90 ≤ λ < 140 |
+| Pilares Muito Esbeltos | 140 ≤ λ ≤ 200 |
+
+É importante notar alguns pontos adicionais:
+
+1. O índice de esbeltez é calculado pela fórmula: λ = le / i, onde le é o comprimento de flambagem e i é o raio de giração da seção transversal.
+
+2. A norma estabelece que os pilares devem ter índice de esbeltez menor ou igual a 200 (λ ≤ 200).
+
+3. Existe uma exceção para postes com força normal menor que 0,10 fcd x Ac, onde o índice de esbeltez pode ser maior que 200.
+
+4. O valor limite do índice de esbeltez λ1, abaixo do qual os efeitos de 2ª ordem podem ser desprezados, é calculado por uma fórmula específica e depende de fatores como a excentricidade relativa de 1ª ordem e a vinculação dos extremos da coluna.
+
 ##### **3.1. Comprimento Efetivo (\( L_{ef} \)):**
 
 Para um pilar em balanço:
@@ -207,7 +228,11 @@ Como \( \lambda = 69,28 < \lambda_{lim} = 98 \), o pilar está dentro da esbelte
 
 #### **5. Cálculo dos Efeitos de Segunda Ordem**
 
+> Os efeitos de 2ª ordem são aqueles que se somam aos obtidos numa análise de 1ª ordem, quando a análise do equilíbrio passa a ser efetuada considerando a configuração deformada da estrutura. Quanto mais esbelta for a peça, maior será a importância de sua consideração.
+
 ##### **5.1. Módulo de Elasticidade Secante do Concreto (\( E_{cs} \)):**
+
+> O Módulo de Elasticidade Secante do Concreto é uma propriedade importante que representa a relação entre tensão e deformação do material sob carregamento.
 
 \[
 E_{cs} = \dfrac{E_{c}}{\gamma_{c}}
@@ -226,6 +251,8 @@ E_{cs} = \dfrac{31 \times 10^6}{1,4} = 22,14 \times 10^6 \, \text{kN/m}^2
 
 ##### **5.2. Carga Crítica de Euler (\( N_{e} \)):**
 
+> A carga crítica de Euler, também conhecida como carga de flambagem, é um conceito fundamental na análise de estabilidade de colunas e barras esbeltas submetidas a esforços de compressão
+
 \[
 N_{e} = \dfrac{\pi^2 \times E_{cs} \times I_y}{(L_{ef})^2} = \dfrac{\pi^2 \times 22,14 \times 10^6 \times 0,0010667}{(8,0)^2}
 \]
@@ -242,6 +269,8 @@ N_{e} = \dfrac{232,97 \times 10^3}{64} = 3.640 \, \text{kN}
 
 ##### **5.3. Coeficiente de Fluência (\( \phi \)):**
 
+> O Coeficiente de Fluência é um parâmetro importante na análise do comportamento do concreto ao longo do tempo.
+
 Para simplificar, adotamos \( \phi = 1,4 \) (valor típico para concreto comum).
 
 ##### **5.4. Cálculo do Coeficiente Reduzido (\( \nu \)):**
@@ -255,6 +284,8 @@ Para simplificar, adotamos \( \phi = 1,4 \) (valor típico para concreto comum).
 \]
 
 ##### **5.5. Cálculo do Coeficiente de Amplificação (\( \gamma_z \)):**
+
+> O Coeficiente de Amplificação, também conhecido como Fator de Amplificação Dinâmica (FAD), é a relação entre a resposta dinâmica máxima de uma estrutura e sua resposta estática equivalente.
 
 \[
 \gamma_z = \dfrac{1}{1 - \dfrac{N_{sd}}{\nu \times N_{e}}}

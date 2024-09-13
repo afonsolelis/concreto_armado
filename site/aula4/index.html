@@ -701,7 +701,21 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Cálculo da Esbeltez (\( \lambda \))">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classificacao-dos-pilares-quanto-a-esbeltez" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classificação dos Pilares quanto à Esbeltez
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classificação dos Pilares quanto à Esbeltez">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -719,11 +733,6 @@
       3.2. Esbeltez (\( \lambda \)):
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -2119,7 +2128,21 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Cálculo da Esbeltez (\( \lambda \))">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classificacao-dos-pilares-quanto-a-esbeltez" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classificação dos Pilares quanto à Esbeltez
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classificação dos Pilares quanto à Esbeltez">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2137,11 +2160,6 @@
       3.2. Esbeltez (\( \lambda \)):
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -2513,6 +2531,49 @@ i = \sqrt{\dfrac{I}{A_c}} = \sqrt{\dfrac{0,0010667}{0,08}} = 0,1155 \, \text{m}
 \]</div>
 <hr />
 <h4 id="3-calculo-da-esbeltez-lambda"><strong>3. Cálculo da Esbeltez (<span class="arithmatex">\( \lambda \)</span>)</strong></h4>
+<p>De acordo com a NBR 6118, os pilares são classificados quanto à esbeltez (λ) da seguinte forma:</p>
+<h2 id="classificacao-dos-pilares-quanto-a-esbeltez">Classificação dos Pilares quanto à Esbeltez</h2>
+<table>
+<thead>
+<tr>
+<th>Classificação</th>
+<th>Índice de Esbeltez (λ)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pilares Curtos</td>
+<td>λ &lt; 35</td>
+</tr>
+<tr>
+<td>Pilares Medianamente Esbeltos</td>
+<td>35 ≤ λ &lt; 90</td>
+</tr>
+<tr>
+<td>Pilares Esbeltos</td>
+<td>90 ≤ λ &lt; 140</td>
+</tr>
+<tr>
+<td>Pilares Muito Esbeltos</td>
+<td>140 ≤ λ ≤ 200</td>
+</tr>
+</tbody>
+</table>
+<p>É importante notar alguns pontos adicionais:</p>
+<ol>
+<li>
+<p>O índice de esbeltez é calculado pela fórmula: λ = le / i, onde le é o comprimento de flambagem e i é o raio de giração da seção transversal.</p>
+</li>
+<li>
+<p>A norma estabelece que os pilares devem ter índice de esbeltez menor ou igual a 200 (λ ≤ 200).</p>
+</li>
+<li>
+<p>Existe uma exceção para postes com força normal menor que 0,10 fcd x Ac, onde o índice de esbeltez pode ser maior que 200.</p>
+</li>
+<li>
+<p>O valor limite do índice de esbeltez λ1, abaixo do qual os efeitos de 2ª ordem podem ser desprezados, é calculado por uma fórmula específica e depende de fatores como a excentricidade relativa de 1ª ordem e a vinculação dos extremos da coluna.</p>
+</li>
+</ol>
 <h5 id="31-comprimento-efetivo-l_ef"><strong>3.1. Comprimento Efetivo (<span class="arithmatex">\( L_{ef} \)</span>):</strong></h5>
 <p>Para um pilar em balanço:</p>
 <div class="arithmatex">\[
@@ -2546,7 +2607,13 @@ L_{ef} = 2 \times L_0 = 2 \times 4,0 = 8,0 \, \text{m}
 <p>Como <span class="arithmatex">\( \lambda = 69,28 &lt; \lambda_{lim} = 98 \)</span>, o pilar está dentro da esbeltez limite, mas ainda assim devemos considerar os <strong>efeitos de segunda ordem</strong> devido ao valor elevado da esbeltez.</p>
 <hr />
 <h4 id="5-calculo-dos-efeitos-de-segunda-ordem"><strong>5. Cálculo dos Efeitos de Segunda Ordem</strong></h4>
+<blockquote>
+<p>Os efeitos de 2ª ordem são aqueles que se somam aos obtidos numa análise de 1ª ordem, quando a análise do equilíbrio passa a ser efetuada considerando a configuração deformada da estrutura. Quanto mais esbelta for a peça, maior será a importância de sua consideração.</p>
+</blockquote>
 <h5 id="51-modulo-de-elasticidade-secante-do-concreto-e_cs"><strong>5.1. Módulo de Elasticidade Secante do Concreto (<span class="arithmatex">\( E_{cs} \)</span>):</strong></h5>
+<blockquote>
+<p>O Módulo de Elasticidade Secante do Concreto é uma propriedade importante que representa a relação entre tensão e deformação do material sob carregamento.</p>
+</blockquote>
 <div class="arithmatex">\[
 E_{cs} = \dfrac{E_{c}}{\gamma_{c}}
 \]</div>
@@ -2560,6 +2627,9 @@ E_{cs} = \dfrac{E_{c}}{\gamma_{c}}
 E_{cs} = \dfrac{31 \times 10^6}{1,4} = 22,14 \times 10^6 \, \text{kN/m}^2
 \]</div>
 <h5 id="52-carga-critica-de-euler-n_e"><strong>5.2. Carga Crítica de Euler (<span class="arithmatex">\( N_{e} \)</span>):</strong></h5>
+<blockquote>
+<p>A carga crítica de Euler, também conhecida como carga de flambagem, é um conceito fundamental na análise de estabilidade de colunas e barras esbeltas submetidas a esforços de compressão</p>
+</blockquote>
 <div class="arithmatex">\[
 N_{e} = \dfrac{\pi^2 \times E_{cs} \times I_y}{(L_{ef})^2} = \dfrac{\pi^2 \times 22,14 \times 10^6 \times 0,0010667}{(8,0)^2}
 \]</div>
@@ -2571,6 +2641,9 @@ N_{e} = \dfrac{9,8696 \times 22,14 \times 10^6 \times 0,0010667}{64} = \dfrac{9,
 N_{e} = \dfrac{232,97 \times 10^3}{64} = 3.640 \, \text{kN}
 \]</div>
 <h5 id="53-coeficiente-de-fluencia-phi"><strong>5.3. Coeficiente de Fluência (<span class="arithmatex">\( \phi \)</span>):</strong></h5>
+<blockquote>
+<p>O Coeficiente de Fluência é um parâmetro importante na análise do comportamento do concreto ao longo do tempo.</p>
+</blockquote>
 <p>Para simplificar, adotamos <span class="arithmatex">\( \phi = 1,4 \)</span> (valor típico para concreto comum).</p>
 <h5 id="54-calculo-do-coeficiente-reduzido-nu"><strong>5.4. Cálculo do Coeficiente Reduzido (<span class="arithmatex">\( \nu \)</span>):</strong></h5>
 <div class="arithmatex">\[
@@ -2580,6 +2653,9 @@ N_{e} = \dfrac{232,97 \times 10^3}{64} = 3.640 \, \text{kN}
 \nu = \dfrac{1}{1 + 1,4} = \dfrac{1}{2,4} = 0,4167
 \]</div>
 <h5 id="55-calculo-do-coeficiente-de-amplificacao-gamma_z"><strong>5.5. Cálculo do Coeficiente de Amplificação (<span class="arithmatex">\( \gamma_z \)</span>):</strong></h5>
+<blockquote>
+<p>O Coeficiente de Amplificação, também conhecido como Fator de Amplificação Dinâmica (FAD), é a relação entre a resposta dinâmica máxima de uma estrutura e sua resposta estática equivalente.</p>
+</blockquote>
 <div class="arithmatex">\[
 \gamma_z = \dfrac{1}{1 - \dfrac{N_{sd}}{\nu \times N_{e}}}
 \]</div>
