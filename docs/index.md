@@ -4,12 +4,8 @@
 2. [Conceitos Fundamentais sobre Pilares](aula2)
 3. [Pilares de Extremidade, Intermediário e de Canto](aula3)
 4. [Dimensionamento de pilares](aula4)
-5. [Cálculo de Reações de Apoio do Pórtico](aula5)
-6. [Diagrama dos Esforços Normal e Cortante](aula6)
-7. [Diagrama de Momento Fletor (parte1)](aula7)
-8. [Diagrama de Momento Fletor (parte2)](aula8)
-9. [Considerações Práticas](aula9)
-10. [Estudos de Caso e Aplicações Reais](aula10)
+5. [Exemplo de Cálculo de Pilar Engastado nos Dois Extremos](aula5)
+
 
 # Vídeos
 
