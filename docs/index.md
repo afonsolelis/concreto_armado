@@ -5,6 +5,7 @@
 3. [Pilares de Extremidade, Intermediário e de Canto](aula3)
 4. [Dimensionamento de pilares](aula4)
 5. [Exemplo de Cálculo de Pilar Engastado nos Dois Extremos](aula5)
+6. [Dimensionando Pórticos](aula6)
 
 
 # Vídeos
